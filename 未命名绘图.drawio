@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-06T15:45:50.119Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Hclt3xoixQd2OGoGRR5L" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-06T15:51:09.661Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="W2UzlzK-1tE-7jjbP_nQ" version="21.1.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-11" value="裸机环境初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-13" value="创建裸机管理资源" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="30" width="60" height="30" as="geometry" />
@@ -43,28 +43,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-14" value="集群master节点初始化" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cP1UO_zdowh7QH_uPdua-18" target="cP1UO_zdowh7QH_uPdua-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-18" value="集群master节点加入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-23" value="集群worker节点加入" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="574.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="340" y="584.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cP1UO_zdowh7QH_uPdua-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cP1UO_zdowh7QH_uPdua-25" target="cP1UO_zdowh7QH_uPdua-11">
+        <mxCell id="cP1UO_zdowh7QH_uPdua-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="cP1UO_zdowh7QH_uPdua-25" target="cP1UO_zdowh7QH_uPdua-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-25" value="新增master或worker节点到裸机管理资源" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-30" value="销毁对应的集群" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="155" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cP1UO_zdowh7QH_uPdua-32" value="删除裸机管理资源" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cP1UO_zdowh7QH_uPdua-35" value="开始监听管理集群等待指令下发" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="405" y="220" width="95" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
