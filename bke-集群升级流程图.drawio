@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T10:38:37.603Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.7" etag="AT0zsEfK8LyuNfEltAT4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T10:41:05.971Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="uJ8syM8g4GhoSKEN3pTN" version="21.1.7" type="github">
   <diagram name="第 1 页" id="_zQeI9LSfEkTdS4GxB90">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FI4mgEV2ejp4J9LWo2Bd-1" target="FI4mgEV2ejp4J9LWo2Bd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-1" value="修改bc.spce.clusterConfig.cluster.kubernetesVersion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FI4mgEV2ejp4J9LWo2Bd-3" target="FI4mgEV2ejp4J9LWo2Bd-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-3" value="依次对worker节点升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="140" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FI4mgEV2ejp4J9LWo2Bd-5" target="FI4mgEV2ejp4J9LWo2Bd-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-5" value="依次对master节点升级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FI4mgEV2ejp4J9LWo2Bd-7" value="集群健康检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
