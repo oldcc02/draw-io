@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T08:55:22.539Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5Ju_un9u9-IrHjU1FnbB" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T10:08:41.598Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="G3kxSWQo8LoSWml0DoNP" version="21.1.7" type="github">
   <diagram name="第 1 页" id="zT4W01S-cl8MvEPdsr_O">
-    <mxGraphModel dx="1195" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,17 +16,23 @@
         <mxCell id="QrTfvvCOfK35iwcgcaVT-2" value="与status中的节点做比较确认需要添加的节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="95" y="140" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-3" target="QrTfvvCOfK35iwcgcaVT-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-3" target="QrTfvvCOfK35iwcgcaVT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="585" />
+              <mxPoint x="300" y="100" />
+              <mxPoint x="391" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-3" value="master节点串行加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="550" width="80" height="30" as="geometry" />
+          <mxGeometry x="125" y="570" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-4" target="QrTfvvCOfK35iwcgcaVT-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-4" value="worker节点并行加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="720" width="80" height="30" as="geometry" />
+          <mxGeometry x="351" y="210" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-5" target="QrTfvvCOfK35iwcgcaVT-24">
           <mxGeometry relative="1" as="geometry" />
@@ -36,17 +42,13 @@
             <mxPoint y="13" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-5">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="600" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="265" y="345" />
-              <mxPoint x="265" y="600" />
-            </Array>
+            <mxPoint x="300" y="344.83333333333337" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-34" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-31">
-          <mxGeometry x="-0.9628" y="1" relative="1" as="geometry">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-44">
+          <mxGeometry x="-0.2931" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -63,10 +65,10 @@
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="165" y="775" as="targetPoint" />
+            <mxPoint x="391" y="265" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="265" y="655" />
-              <mxPoint x="265" y="775" />
+              <mxPoint x="491" y="145" />
+              <mxPoint x="491" y="265" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -76,10 +78,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-6" value="有worker节点需要添加" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="630" width="110" height="50" as="geometry" />
+          <mxGeometry x="336" y="120" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-8" value="集群健康检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="125" y="800" width="80" height="30" as="geometry" />
+          <mxGeometry x="351" y="290" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-24" target="QrTfvvCOfK35iwcgcaVT-25">
           <mxGeometry relative="1" as="geometry" />
@@ -89,14 +91,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-24">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="265" y="430" as="targetPoint" />
+            <mxPoint x="165" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="430" />
+              <mxPoint x="250" y="550" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-33">
-          <mxGeometry x="-0.7667" y="1" relative="1" as="geometry">
-            <mxPoint x="8" y="1" as="offset" />
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-46">
+          <mxGeometry x="-0.904" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-24" value="是HA集群？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
