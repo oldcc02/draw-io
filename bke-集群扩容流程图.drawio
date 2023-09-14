@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T08:48:57.497Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="dWVF461z2mOmkyhsJWUB" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T08:53:47.130Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5U94iOxm-rVSL3Qi-Wfh" version="21.1.7" type="github">
   <diagram name="第 1 页" id="zT4W01S-cl8MvEPdsr_O">
-    <mxGraphModel dx="1687" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,25 +8,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-1" value="修改bc资源，添加节点信息到sepc中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="80" width="120" height="30" as="geometry" />
+          <mxGeometry x="105" y="120" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-2" target="QrTfvvCOfK35iwcgcaVT-5">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-2" target="QrTfvvCOfK35iwcgcaVT-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-2" value="与status中的节点做比较确认需要添加的节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="140" width="140" height="30" as="geometry" />
+          <mxGeometry x="95" y="190" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-3" target="QrTfvvCOfK35iwcgcaVT-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-3" value="master节点串行加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="430" width="80" height="30" as="geometry" />
+          <mxGeometry x="125" y="550" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-4" target="QrTfvvCOfK35iwcgcaVT-8">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-4" target="QrTfvvCOfK35iwcgcaVT-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-4" value="worker节点并行加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="605" width="80" height="30" as="geometry" />
+          <mxGeometry x="125" y="720" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-5" target="QrTfvvCOfK35iwcgcaVT-24">
           <mxGeometry relative="1" as="geometry" />
@@ -38,10 +38,10 @@
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="480" as="targetPoint" />
+            <mxPoint x="165" y="600" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="225" />
-              <mxPoint x="270" y="480" />
+              <mxPoint x="265" y="345" />
+              <mxPoint x="265" y="600" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -51,22 +51,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-5" value="有master节点需要添加" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="200" width="110" height="50" as="geometry" />
+          <mxGeometry x="110" y="320" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-6" target="QrTfvvCOfK35iwcgcaVT-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-14">
           <mxGeometry x="-0.7508" relative="1" as="geometry">
-            <mxPoint y="4" as="offset" />
+            <mxPoint y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-6">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="655" as="targetPoint" />
+            <mxPoint x="165" y="775" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="270" y="535" />
-              <mxPoint x="270" y="655" />
+              <mxPoint x="265" y="655" />
+              <mxPoint x="265" y="775" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -76,10 +76,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-6" value="有worker节点需要添加" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="115" y="510" width="110" height="50" as="geometry" />
+          <mxGeometry x="110" y="630" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-8" value="集群健康检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="675" width="80" height="30" as="geometry" />
+          <mxGeometry x="125" y="800" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-24" target="QrTfvvCOfK35iwcgcaVT-25">
           <mxGeometry relative="1" as="geometry" />
@@ -91,7 +91,7 @@
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="270" y="310" as="targetPoint" />
+            <mxPoint x="265" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-35" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QrTfvvCOfK35iwcgcaVT-33">
@@ -100,13 +100,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-24" value="是HA集群？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="290" width="80" height="40" as="geometry" />
+          <mxGeometry x="125" y="410" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-25" target="QrTfvvCOfK35iwcgcaVT-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-25" value="重新配置负载均衡器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="370" width="80" height="30" as="geometry" />
+          <mxGeometry x="125" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-36" target="QrTfvvCOfK35iwcgcaVT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-36" value="根据节点架构sftp推送对应架构bkeagent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="250" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
