@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T08:53:47.130Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5U94iOxm-rVSL3Qi-Wfh" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T08:55:22.539Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5Ju_un9u9-IrHjU1FnbB" version="21.1.7" type="github">
   <diagram name="第 1 页" id="zT4W01S-cl8MvEPdsr_O">
     <mxGraphModel dx="1195" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,13 +8,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-1" value="修改bc资源，添加节点信息到sepc中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="120" width="120" height="30" as="geometry" />
+          <mxGeometry x="105" y="70" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-2" target="QrTfvvCOfK35iwcgcaVT-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-2" value="与status中的节点做比较确认需要添加的节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="190" width="140" height="30" as="geometry" />
+          <mxGeometry x="95" y="140" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-3" target="QrTfvvCOfK35iwcgcaVT-6">
           <mxGeometry relative="1" as="geometry" />
@@ -108,11 +108,17 @@
         <mxCell id="QrTfvvCOfK35iwcgcaVT-25" value="重新配置负载均衡器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="125" y="490" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QrTfvvCOfK35iwcgcaVT-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-36" target="QrTfvvCOfK35iwcgcaVT-5">
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-36" target="QrTfvvCOfK35iwcgcaVT-40">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QrTfvvCOfK35iwcgcaVT-36" value="根据节点架构sftp推送对应架构bkeagent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="97.5" y="250" width="135" height="30" as="geometry" />
+          <mxGeometry x="97.5" y="200" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QrTfvvCOfK35iwcgcaVT-40" target="QrTfvvCOfK35iwcgcaVT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QrTfvvCOfK35iwcgcaVT-40" value="节点环境初始化（配置机器、安装运行时等）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="96.25" y="260" width="137.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
