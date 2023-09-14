@@ -1,9 +1,108 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T09:56:18.924Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.7" etag="2ujBcJXezJro31qdA30P" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T10:07:01.253Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_VOOHRXgRf8hf63ksbe3" version="21.1.7" type="github">
   <diagram name="第 1 页" id="Hxglwvlw57_yf5wG_qdN">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-2" target="-uCiP7BHnO7PdOS-XpZi-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-2" value="修改bc资源，从spec中删除指定节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150.0344827586207" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-4" value="与status中的节点做比较确认需要删除的节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-31" target="-uCiP7BHnO7PdOS-XpZi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-31" value="修改bc资源，将待删除节点ip以&#39;,&#39;分割设置到注解bke.bocloud.com/appointment-deleted-nodes中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="17.5" y="140" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-40" target="-uCiP7BHnO7PdOS-XpZi-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-61" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-uCiP7BHnO7PdOS-XpZi-45">
+          <mxGeometry x="-0.2192" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-40" value="有master节点需要删除" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="260" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-42" target="-uCiP7BHnO7PdOS-XpZi-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="390" />
+              <mxPoint x="150" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-60" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-uCiP7BHnO7PdOS-XpZi-46">
+          <mxGeometry x="-0.2575" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="360" />
+              <mxPoint x="230" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-59" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-uCiP7BHnO7PdOS-XpZi-58">
+          <mxGeometry x="-0.8948" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-42" value="是HA集群？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-43" target="-uCiP7BHnO7PdOS-XpZi-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-43" value="重新配置负载均衡器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-49" target="-uCiP7BHnO7PdOS-XpZi-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="495" />
+              <mxPoint x="300" y="80" />
+              <mxPoint x="405" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-49" value="master节点串行移出集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-51" target="-uCiP7BHnO7PdOS-XpZi-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-51" value="有worker节点需要删除" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="100" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-uCiP7BHnO7PdOS-XpZi-53" target="-uCiP7BHnO7PdOS-XpZi-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-53" value="worker节点并行移出集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-uCiP7BHnO7PdOS-XpZi-55" value="集群健康检查" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
