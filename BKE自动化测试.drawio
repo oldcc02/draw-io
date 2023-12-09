@@ -1,49 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T03:35:05.350Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.7" etag="-p8Aoh39iDPL9JIrhhOa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T05:23:51.327Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="OnUuWxKAtPxPnRu1sq6r" version="22.1.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1223" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="WIyWlLk6GJQsqaUBKTNV-6" edge="1">
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--0" target="d2c1SV6npw8Ntwoyp0X--1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="Lamp doesn&#39;t work" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--0" value="e2e run -f&amp;nbsp; env.yaml --case 1,2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="110" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="Yes" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
-          <mxGeometry y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--1" target="d2c1SV6npw8Ntwoyp0X--2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-5" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-7" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--1" value="读取环境配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="170" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Lamp&lt;br&gt;plugged in?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="170" width="100" height="80" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--2" target="d2c1SV6npw8Ntwoyp0X--3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-7" value="Plug in lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="190" width="120" height="40" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--2" value="验证环境配置文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="220" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-8" value="No" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-11" edge="1">
-          <mxGeometry x="0.3333" y="20" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--3" target="d2c1SV6npw8Ntwoyp0X--4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-9" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-12" edge="1">
-          <mxGeometry y="10" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--3" value="解析仓库信息，设为全局参数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="280" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-10" value="Bulb&lt;br&gt;burned out?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="290" width="100" height="80" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--4" target="d2c1SV6npw8Ntwoyp0X--5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-11" value="Repair Lamp" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="160" y="430" width="120" height="40" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--4" value="创建本地集群k8s client,以及从环境配置文件读取节点设为全局待分配节点" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="Replace Bulb" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="320" y="310" width="120" height="40" as="geometry" />
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--5" target="d2c1SV6npw8Ntwoyp0X--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--5" target="d2c1SV6npw8Ntwoyp0X--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--5" value="解析（准备）测试用例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="430" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--6" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;移除（新建）.testcase目录（上一次用例运行目录）&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;移动内置用例到.testcase目录&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;解析单个内置用例（不满足节点数量的用例跳过，若用例ID不在指定用例ID中跳过），拼接单条用例报告数据&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;添加用例数据到报告数据中&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;移动case.yaml和设置所有的k8s资源yaml（渲染后）到.testcase/caseName目录下&lt;br&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;解析外置自定义用例从testcase目录步骤和3，4，5一致&lt;/li&gt;&lt;/ol&gt;&lt;font color=&quot;#ff7417&quot;&gt;todo:优化下读取步骤代码，拆分解析函数&lt;br&gt;将上面解析的即将要执行的用例数据（文件路径之类的）保存到一个结构体中，方便后续执行时直接使用就不用在去读取文件系统了&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="250" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--8" target="d2c1SV6npw8Ntwoyp0X--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--8" target="d2c1SV6npw8Ntwoyp0X--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--8" value="渲染报告html，输出报告json数据到/bke2e/report目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--9" value="异步定时渲染刷新html和json数据" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="485" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--11" target="d2c1SV6npw8Ntwoyp0X--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--11" value="启动报告server&lt;br&gt;&lt;font color=&quot;#ff7417&quot;&gt;todo:e2e run 启动参数自定义server端口&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="580" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--14" value="FF7417" style="text;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="70" y="440" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--15" target="d2c1SV6npw8Ntwoyp0X--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d2c1SV6npw8Ntwoyp0X--15" target="d2c1SV6npw8Ntwoyp0X--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--15" value="开始执行用例" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--17" value="&lt;ol&gt;&lt;li&gt;从.testcase目录读取需要运行的case&lt;/li&gt;&lt;li&gt;更新执行状态（执行中）到报告数据结构体&lt;/li&gt;&lt;li&gt;获取节点信息（架构，操作系统）到报告数据&lt;/li&gt;&lt;li&gt;提交测试资源（bc等k8s资源）&lt;/li&gt;&lt;li&gt;观察bc状态（达到预期状态heathy）更新报告数据&lt;/li&gt;&lt;li&gt;观察集群kube-system pod状态（全running）更新报告数据&lt;/li&gt;&lt;li&gt;单次用例测试结束，更新报告数据&lt;/li&gt;&lt;li&gt;清理bc和ns开始下一测试用例&lt;/li&gt;&lt;/ol&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#ff7417&quot;&gt;todo：单个用例失败后会导致后续的测试用例无法执行，且网页报告server关闭，无法再查看报告了，完善检查条款仅是bc healthy还有所欠缺&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="603.75" width="370" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="d2c1SV6npw8Ntwoyp0X--19" value="测试结束，页面查看报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="770" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
