@@ -1,9 +1,188 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T10:01:30.728Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="2cHf55lz0IxsyTlZHI44" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T10:16:24.078Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="As1X1SoLBtYLIufaoty_" version="23.1.1" type="github">
   <diagram name="第 1 页" id="9z-E5gdKn9Cgs7w9vnW5">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="280" width="30" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="30" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="280" width="30" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="862" y="280" width="30" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-6" value="aios-asstant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-8" value="cube-studio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-9" value="argo-workflow" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="190" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.133;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="400" as="sourcePoint" />
+            <mxPoint x="9.999999999999986" y="400.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-13" value="创建流水线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-11">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.056;exitY=0.059;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.022;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-3" target="s6yLuwlqCGSPbCYkG2Cf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-15" value="动态从boc获取集群信息&lt;br&gt;注册到cube-studio 配置文件中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-14">
+          <mxGeometry x="-0.3425" y="2" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.076;entryY=0.104;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.131;exitY=0.103;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-4" target="s6yLuwlqCGSPbCYkG2Cf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="460" as="sourcePoint" />
+            <mxPoint x="520" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-17" value="返回集群对应项目组信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-16">
+          <mxGeometry x="-0.0324" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.067;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-2" target="s6yLuwlqCGSPbCYkG2Cf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="450" as="sourcePoint" />
+            <mxPoint x="660" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-20" value="拖拉拽创建流水线任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-18">
+          <mxGeometry x="-0.6803" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-4" target="s6yLuwlqCGSPbCYkG2Cf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-22" value="保存流水线和流水线任务信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-21">
+          <mxGeometry x="-0.2367" y="-1" relative="1" as="geometry">
+            <mxPoint x="47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.133;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="520" as="sourcePoint" />
+            <mxPoint x="9.999999999999986" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-24" value="运行流水线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-23">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.446;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.441;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-2" target="s6yLuwlqCGSPbCYkG2Cf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="530" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.067;exitY=0.444;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-4" target="s6yLuwlqCGSPbCYkG2Cf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-29" value="根据流水线和任务信息创建workflow资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-28">
+          <mxGeometry x="-0.4311" relative="1" as="geometry">
+            <mxPoint x="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.489;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.485;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-3" target="s6yLuwlqCGSPbCYkG2Cf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="sourcePoint" />
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-31" value="监听workflow状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-30">
+          <mxGeometry x="-0.7036" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.033;exitY=0.537;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.167;entryY=0.535;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-3" target="s6yLuwlqCGSPbCYkG2Cf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="570" as="sourcePoint" />
+            <mxPoint x="660" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-33" value="写入workflow状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-32">
+          <mxGeometry x="-0.3162" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.067;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.067;exitY=0.585;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-4" target="s6yLuwlqCGSPbCYkG2Cf-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="570" as="sourcePoint" />
+            <mxPoint x="370" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-35" value="返回workflow运行日志" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-34">
+          <mxGeometry x="-0.1276" y="1" relative="1" as="geometry">
+            <mxPoint x="-146" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.067;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.033;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580.0000000000002" y="360.00000000000006" as="sourcePoint" />
+            <mxPoint x="859.0000000000002" y="361.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-37" value="定时清理执行结束的workflow资源和流水线任务pod" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-36">
+          <mxGeometry x="-0.2308" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.133;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="700" as="sourcePoint" />
+            <mxPoint x="9.999999999999986" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-39" value="删除流水线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-38">
+          <mxGeometry x="-0.3" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.781;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.778;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-2" target="s6yLuwlqCGSPbCYkG2Cf-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="570" as="sourcePoint" />
+            <mxPoint x="370" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.1;exitY=0.78;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.033;entryY=0.78;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s6yLuwlqCGSPbCYkG2Cf-4" target="s6yLuwlqCGSPbCYkG2Cf-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="570" as="sourcePoint" />
+            <mxPoint x="370" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s6yLuwlqCGSPbCYkG2Cf-42" value="删除worflow资源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s6yLuwlqCGSPbCYkG2Cf-41">
+          <mxGeometry x="-0.3214" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
