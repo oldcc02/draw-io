@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T02:00:31.500Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="fqDmkc8rIzQLDUrMWSNN" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T02:24:58.748Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Nv7zEICzzKALm3R99y6w" version="24.3.1" type="github">
   <diagram name="第 1 页" id="YgofX_YF3xhh3ExV_XS4">
-    <mxGraphModel dx="4044" dy="3595" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+    <mxGraphModel dx="3395" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="OvkDMop8IfQsk-_mgliN-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e7f3ea;strokeColor=none;shadow=1;allowArrows=1;imageAlign=center;rotatable=1;absoluteArcSize=1;arcSize=12;shadowOpacity=30;fontColor=#413939;movable=1;resizable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-319">
           <mxGeometry width="370" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="OvkDMop8IfQsk-_mgliN-3" value="&lt;pre&gt;&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;&quot;&gt;管理集群+VIP&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c4dbf2;strokeColor=none;glass=0;shadow=1;arcSize=12;shadowOpacity=30;fontStyle=1;textDirection=ltr;labelBackgroundColor=none;fontColor=#413939;absoluteArcSize=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-319">
+        <mxCell id="OvkDMop8IfQsk-_mgliN-3" value="&lt;pre&gt;&lt;font face=&quot;Garamond&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;&quot;&gt;管理集群+VIP&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c4dbf2;strokeColor=none;glass=0;shadow=0;arcSize=12;shadowOpacity=30;fontStyle=1;textDirection=ltr;labelBackgroundColor=none;fontColor=#413939;absoluteArcSize=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-319">
           <mxGeometry width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OvkDMop8IfQsk-_mgliN-14" value="" style="group;rounded=1;fontColor=#413939;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="OvkDMop8IfQsk-_mgliN-319">
@@ -340,6 +340,12 @@
         <mxCell id="OvkDMop8IfQsk-_mgliN-483" value="&lt;pre style=&quot;color: rgb(65, 57, 57); font-weight: 700;&quot;&gt;&lt;font face=&quot;Garamond&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;RDMA NIC&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#b1ddf0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-337">
           <mxGeometry x="180" y="300" width="91.57" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="OvkDMop8IfQsk-_mgliN-490" value="KUBE-GPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;shadow=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-337">
+          <mxGeometry x="162.73" y="185.04" width="70.5" height="24.96" as="geometry" />
+        </mxCell>
+        <mxCell id="OvkDMop8IfQsk-_mgliN-521" value="KUBE-GPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;shadow=1;" vertex="1" parent="OvkDMop8IfQsk-_mgliN-337">
+          <mxGeometry x="460" y="186.70999999999998" width="70.5" height="24.96" as="geometry" />
+        </mxCell>
         <mxCell id="OvkDMop8IfQsk-_mgliN-425" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;dashed=1;dashPattern=1 1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="OvkDMop8IfQsk-_mgliN-419" target="OvkDMop8IfQsk-_mgliN-421">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -482,6 +488,9 @@
               <mxPoint x="-424" y="-140" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OvkDMop8IfQsk-_mgliN-522" value="KUBE-GPU" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="112.73000000000002" y="-347.29" width="70.5" height="24.96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
